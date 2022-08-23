@@ -1,0 +1,15 @@
+.main-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.SearchInput{
+    height: 40px;
+    width: 600px;
+    border-radius: 30px;
+    border: 0px;
+    padding: 5px;
+}
+::placeholder{
+    color: gray;
+}
