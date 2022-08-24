@@ -1,11 +1,12 @@
 import React from "react"
 import Filter from '../Components/Filter/Filter.js'
+import Searcher from '../Components/Searcher/Searcher.js'
 
 import './MainPage.css'
 const MainPage = () => {
     return (
         <div className="body">
-            <div className="main-container">
+            <div className="body-container">
                 <div className="top-container">
                     <div className="logos-container">
                         <img src="https://i.imgur.com/JXqFr4l.png"/>
@@ -13,10 +14,10 @@ const MainPage = () => {
                     <h1>!Conoce tu facultad!</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     <div className="filtros-container">
-                        <div>BUSCADOOOR</div>
+                    <Searcher/>
                         <div className="botones-container">
                             <Filter/>
-                            <div>croquis</div>
+                            CROQUIS
                         </div>
                     </div>
                 </div>
