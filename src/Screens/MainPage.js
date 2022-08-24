@@ -24,7 +24,9 @@ const MainPage = () => {
                     </div>
                 </div>
                 <div className="bottom-container">
-                    
+                    <div>
+                        <ProfessorCard/>
+                    </div>
                 </div>
             </div>
             <footer></footer>
