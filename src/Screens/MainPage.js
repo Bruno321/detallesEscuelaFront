@@ -1,4 +1,6 @@
 import React from "react"
+import Filter from '../Components/Filter/Filter.js'
+
 import './MainPage.css'
 const MainPage = () => {
     return (
@@ -13,7 +15,7 @@ const MainPage = () => {
                     <div className="filtros-container">
                         <div>BUSCADOOOR</div>
                         <div className="botones-container">
-                            <div>filtro</div>
+                            <Filter/>
                             <div>croquis</div>
                         </div>
                     </div>
