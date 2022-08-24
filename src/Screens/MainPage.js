@@ -1,10 +1,12 @@
 import React from "react"
 import Filter from '../Components/Filter/Filter.js'
 import Searcher from '../Components/Searcher/Searcher.js'
+import ProfessorCard from '../Components/Cards/ProfessorCard/ProfessorCard';
 
 import './MainPage.css'
 const MainPage = () => {
     return (
+
         <div className="body">
             <div className="body-container">
                 <div className="top-container">
