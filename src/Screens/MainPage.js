@@ -8,7 +8,7 @@ import { ComponentToRenderContext } from "../Context/ComponentToRenderContext.js
 import './MainPage.css'
 const MainPage = () => {
    const {componentToRender,setComponentToRender} = useContext(ComponentToRenderContext)
-
+    const data = [1,2,3,4,5,6,7,8,9]
    const textToShow = () => {
     // 0 = The filter selection is Profesores
     if(componentToRender===0){
@@ -33,14 +33,16 @@ const MainPage = () => {
             <div className="body-container">
                 <div className="top-container">
                     <div className="logos-container">
-                        <img src="https://i.imgur.com/JXqFr4l.png"/>
+                            <img src="https://i.imgur.com/JXqFr4l.png"/>
                     </div>
                     <h1>!Conoce tu facultad!</h1>
-                    <p>{textToShow()}</p>
-                    <div className="filtros-container">
-                    <div className="searcher-wrapper">
-                        <Searcher/>
+                    <div className="info-text-wrapper">
+                        <p>{textToShow()}</p>
                     </div>
+                    <div className="filtros-container">
+                        <div className="searcher-wrapper">
+                            <Searcher/>
+                        </div>
                         <div className="botones-container">
                             CROQUIS
                             <div className="filter-wrapper">
@@ -50,13 +52,20 @@ const MainPage = () => {
                     </div>
                 </div>
                 <div className="bottom-container">
-                    <div>
-                        <ProfessorCard/>
-                        <BuildingCard/>
+                        {/* <ProfessorCard/>
+                        <BuildingCard/> */}
+                    <div className="scroll-container">
+                        {
+                            data.map(()=>{
+                                return (
+                                    <ProfessorCard/>
+                                )
+                            })
+                        }
                     </div>
                 </div>
             </div>
-            <footer></footer>
+            {/* <footer></footer> */}
         </div>
     )
 }

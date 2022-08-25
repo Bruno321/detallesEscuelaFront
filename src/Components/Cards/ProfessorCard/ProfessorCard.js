@@ -3,7 +3,8 @@ import React from 'react';
 // Styles
 import './ProfessorCard.css';
 
-const ProfessorCard = () => {
+const ProfessorCard = ({data}) => {
+  // const {nombre,especializ}
   return (
     <div className='card-container'>
       <div className='info-container'>
