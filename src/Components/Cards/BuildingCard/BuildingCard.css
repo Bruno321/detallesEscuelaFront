@@ -1,0 +1,53 @@
+.room-card{
+width: 340px;
+height: 170px;
+background-color: #F2F2F2;
+display:flex;
+border-radius: 10px;
+}
+
+.number-room-card{
+    /* background-color: purple; */
+    width: 40%;
+    height: 100%;
+    /* background-color: pink; */
+}
+.number-container{
+    width: 80%;
+    height: 140px;
+border-radius: 10px;
+background-color: #C4C4C4;
+}
+
+.title-room{
+    font-size: 32px;
+}
+
+.center-div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.information-side{
+    width: 60%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.number-room-title{
+    font-size: 1rem;
+    color: #1E9788;
+}
+
+.status-room{
+    font-size: 13px;
+}
+
+.info-teacher-schedule{
+    font-size: 14px;
+}
+
+.info-place{
+    font-size: 13px;
+}
