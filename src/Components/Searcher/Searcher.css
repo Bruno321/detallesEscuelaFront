@@ -1,15 +1,34 @@
-.main-container{
+.search-container{
     align-items: center;
     justify-content: center;
     display: flex;
+    width: 100%;
+
 }
-.SearchInput{
-    height: 40px;
-    width: 600px;
-    border-radius: 30px;
+.search-input{
+    height: 30px;
     border: 0px;
+    width: 100%;
     padding: 5px;
+    outline: none;
+    background: url('https://i.imgur.com/RHErUAn.png') no-repeat 7px 11px;
+    background-color: white;
+    padding-left:35px;
 }
 ::placeholder{
     color: gray;
 }
+/* Styles for  mobile*/
+@media (max-width:599px){
+    .search-input{
+        border-radius: 12px;
+    }
+}
+
+/* Styles for web */
+@media (min-width:600px){
+    .search-input{
+        border-radius: 30px;
+    }
+}
+

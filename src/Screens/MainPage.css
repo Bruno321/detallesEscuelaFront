@@ -3,7 +3,6 @@
     width: 100%;
 }
 .body-container{
-    height: 100%;
     width: 100%;
 }
 .top-container>h1{
@@ -15,17 +14,30 @@
     color: white;
     margin-top: 15px;
 }
+/* Styles for  mobile*/
 @media (max-width:599px){
    
     .top-container{
         background-color: #1E9788;
-        height: 25%;
+        height: 38vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
     .top-container>*{
         margin-left: 20px;
+    }
+    .filtros-container{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .searcher-wrapper{
+        width: 85%;
+        margin-left: 20px;
+    }
+    .filter-wrapper{
+        width: 30%;
+        margin-top: 15px;
     }
     .logos-container{
         width: 100%;
@@ -36,7 +48,11 @@
         justify-content: space-evenly;
     }
 }
+/* Styles for web */
 @media (min-width:600px){
+    .body-container{
+        height: 100%;
+    }
     .top-container{
         background-color: #1E9788;
         height: 40%;

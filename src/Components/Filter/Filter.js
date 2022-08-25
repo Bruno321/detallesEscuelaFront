@@ -48,8 +48,8 @@ const Filter = () => {
     }
 
     return(
-        <div className="container">
-            <div className="title" onClick={() => showOptions()}>
+        <div className="filter-container">
+            <div className="filter-title" onClick={() => showOptions()}>
                 <span id="tituloFilter">Maestros</span>
                 <img src={iconFilter} className='img'/>
             </div>
