@@ -40,15 +40,20 @@
         margin-left: 20px;
     }
     .filter-wrapper{
-        width: 30%;
-        margin-top: 15px;
+        /* width: 30%; */
+        /* margin-top: 15px; */
     }
     .logos-container{
         margin-top: 5%;
     }
     .botones-container{
         display: flex;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
+        margin-left: 20px;
+    }
+    .botones-container>div{
+        width: 50%;
+        margin-top: 15px;
     }
     .bottom-container{
         height: 82vh;

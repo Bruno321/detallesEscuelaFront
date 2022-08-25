@@ -4,6 +4,7 @@ import Searcher from '../Components/Searcher/Searcher.js'
 import ProfessorCard from '../Components/Cards/ProfessorCard/ProfessorCard';
 import BuildingCard from '../Components/Cards/BuildingCard/BuildingCard';
 import { ComponentToRenderContext } from "../Context/ComponentToRenderContext.js";
+import ButtonMap from "../Components/ButtonMap/ButtonMap"
 
 import './MainPage.css'
 const MainPage = () => {
@@ -44,7 +45,9 @@ const MainPage = () => {
                             <Searcher/>
                         </div>
                         <div className="botones-container">
-                            CROQUIS
+                        <div className="map-wrapper">
+                                <ButtonMap/>
+                            </div>
                             <div className="filter-wrapper">
                                 <Filter/>
                             </div>
