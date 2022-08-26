@@ -1,9 +1,12 @@
-import React from "react"
+import React from "react";
+
+// Component
+import Footer from '../Components/Footer/Footer';
 
 const MainPage = () => {
     return (
         <div>
-
+            <Footer />
         </div>
     )
 }
