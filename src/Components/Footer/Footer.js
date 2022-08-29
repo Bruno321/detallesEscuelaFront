@@ -19,7 +19,9 @@ const Footer = () => {
         <div className='container-socialMedia'>
           <img src={facebook} alt='Icon Facebook' />
           <img src={instagram} alt='Icon Instagram' />
-          <img src={twitter} alt='Icon Twitter' />
+          <a  href="https://bobbyhadz.com/blog/react-open-link-in-new-tab" target="_blank" rel="noopener noreferrer">
+            <img src={twitter} alt='Icon Twitter' />
+          </a>
         </div>
       </div>
     </footer>
