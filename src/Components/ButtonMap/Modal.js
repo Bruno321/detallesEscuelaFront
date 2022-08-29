@@ -12,6 +12,7 @@ const Modal = ({ open, onClose }) => {
   return (
     <div className='overlay' onClick={onClose}>
       <div className='modal-container'>
+        <p onClick={onClose}>x</p>
         <img className='modal-image' src={croquis} alt='Croquis Facultad de Informática'/>
       </div>
     </div>
