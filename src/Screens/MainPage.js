@@ -6,6 +6,10 @@ import BuildingCard from '../Components/Cards/BuildingCard/BuildingCard';
 import { ComponentToRenderContext } from "../Context/ComponentToRenderContext.js";
 import ButtonMap from "../Components/ButtonMap/ButtonMap"
 
+;
+import Footer from '../Components/Footer/Footer';
+
+
 import './MainPage.css'
 const MainPage = () => {
    const {componentToRender,setComponentToRender} = useContext(ComponentToRenderContext)
@@ -64,10 +68,11 @@ const MainPage = () => {
                                 )
                             })
                         }
+                <Footer/>
                 </div>
             </div>
-            {/* <footer></footer> */}
         </div>
+
     )
 }
 

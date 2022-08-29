@@ -22,7 +22,6 @@
    
     .top-container{
         background-color: #1E9788;
-        /* height: 38vh; */
         height: 45%;
         display: flex;
         flex-direction: column;
@@ -41,16 +40,12 @@
         width: 85%;
         margin-left: 20px;
     }
-    .filter-wrapper{
-        /* width: 30%; */
-        /* margin-top: 15px; */
-    }
+ 
     .logos-container{
         margin-top: 5%;
     }
     .botones-container{
         display: flex;
-        /* justify-content: space-evenly; */
         margin-left: 20px;
     }
     .botones-container>div{
@@ -58,16 +53,14 @@
         margin-top: 15px;
     }
     .bottom-container{
-        height: 82vh;
-    }
-    .scroll-container{
-        /* background-color: blue; */
-        height: 100%;
-        overflow: scroll;
+        height: 76%;
+        max-width: 100vw;
+        width: 100vw;
+        overflow: auto;
         display: flex;
-        flex-direction: column;
+        justify-content: center; 
         align-items: center;
-        /* margin-top: 5px; */
+        flex-wrap: wrap;
     }
 }
 /* Styles for web */
@@ -98,7 +91,6 @@
         align-items: center;
         justify-content: center;
         margin-top: 2%;
-        /* background-color: black; */
     }
     .botones-container{
         display: flex;
@@ -116,10 +108,6 @@
         align-items: center;
         flex-wrap: wrap;
     }
-    .scroll-container{
-        height: 100%;
-        width: 100%;
-        background-color: red;
-    }
+
 
 }
