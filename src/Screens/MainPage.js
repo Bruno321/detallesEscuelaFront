@@ -34,7 +34,7 @@ const MainPage = () => {
             <div className="body-container">
                 <div className="top-container">
                     <div className="logos-container">
-                            <img src="https://i.imgur.com/JXqFr4l.png"/>
+                        <img src="https://i.imgur.com/JXqFr4l.png"/>
                     </div>
                     <h1>!Conoce tu facultad!</h1>
                     <div className="info-text-wrapper">
@@ -55,9 +55,8 @@ const MainPage = () => {
                     </div>
                 </div>
                 <div className="bottom-container">
-                        {/* <ProfessorCard/>
-                        <BuildingCard/> */}
-                    <div className="scroll-container">
+                       
+                        {/* <BuildingCard/> */}
                         {
                             data.map(()=>{
                                 return (
@@ -65,7 +64,6 @@ const MainPage = () => {
                                 )
                             })
                         }
-                    </div>
                 </div>
             </div>
             {/* <footer></footer> */}

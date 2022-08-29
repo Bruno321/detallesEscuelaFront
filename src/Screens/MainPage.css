@@ -80,19 +80,44 @@
         flex-direction: column;
         align-items: center;
     }
+    .logos-container{
+        margin-top: 2%;
+    }
+    .searcher-wrapper{
+        width: 45%;
+        margin-left: 5%;
+    }
+    .botones-container>div{
+        margin-left: 5%;
+    }
     .filtros-container{
         display: flex;
         width: 100%;
         align-items: center;
         justify-content: center;
         margin-top: 2%;
-        background-color: black;
+        /* background-color: black; */
     }
     .botones-container{
         display: flex;
     }
     .top-container>h1{
         font-size: 40px;
+    }
+    .bottom-container{
+        height: 60%;
+        max-width: 100vw;
+        width: 100vw;
+        overflow: auto;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .scroll-container{
+        height: 100%;
+        width: 100%;
+        background-color: red;
     }
 
 }
