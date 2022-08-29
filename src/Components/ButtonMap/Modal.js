@@ -10,8 +10,9 @@ const Modal = ({ open, onClose }) => {
   if(!open) return null;
 
   return (
-    <div className='overlay' onClick={onClose}>
+    <div className='overlay'>
       <div className='modal-container'>
+        <p onClick={onClose}>x</p>
         <img className='modal-image' src={croquis} alt='Croquis Facultad de Informática'/>
       </div>
     </div>
