@@ -28,20 +28,35 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .modal-container {
   display: flex;
+  position: relative;
   width: 90%;
   max-width: 820px;
   min-width: 350px;
   height: auto;
-  margin: 50px auto;
+  margin: 100px auto;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-color: #F2F2F2;
   border-radius: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  z-index: 3;
+}
+
+.modal-container p {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  color: rgb(180, 78, 78);
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .modal-image {
