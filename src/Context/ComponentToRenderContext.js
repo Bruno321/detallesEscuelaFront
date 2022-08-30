@@ -6,7 +6,17 @@ const Provider = ({children})=> {
     const [componentToRender,setComponentToRender] = useState(0)
 
     const value = {
+        /**
+         * 0 (default) Maestros
+         * 1 Salones
+         * 2 Laboratorios
+         * 3 Cubiculos 
+         */
         componentToRender,
+        /**
+         * React Hook de useState cambia componentToRender
+         * @params data: int que dicta los componentes por renderizar
+         */
         setComponentToRender:(data)=>{
             setComponentToRender(data)
         }
