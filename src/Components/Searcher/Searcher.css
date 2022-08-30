@@ -13,7 +13,7 @@
     outline: none;
     background: url('https://i.imgur.com/RHErUAn.png') no-repeat 7px 11px;
     background-color: white;
-    padding-left:35px;
+    padding-left: 35px;
 }
 ::placeholder{
     color: gray;
