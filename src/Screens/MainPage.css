@@ -71,10 +71,12 @@
     }
     .top-container{
         background-color: #1E9788;
-        height: 40%;
+        /* height: 40%; */
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
     }
     .logos-container{
         margin-top: 2%;
@@ -89,7 +91,7 @@
     .filtros-container{
         display: flex;
         width: 100%;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
         margin-top: 2%;
     }
@@ -109,6 +111,5 @@
         align-items: center;
         flex-wrap: wrap;
     }
-
 
 }
