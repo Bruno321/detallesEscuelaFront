@@ -49,7 +49,7 @@ const MainPage = () => {
                             <Searcher/>
                         </div>
                         <div className="botones-container">
-                        <div className="map-wrapper">
+                            <div className="map-wrapper">
                                 <ButtonMap/>
                             </div>
                             <div className="filter-wrapper">
