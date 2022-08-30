@@ -1,9 +1,10 @@
 .room-card{
-width: 340px;
-height: 170px;
-background-color: #F2F2F2;
-display:flex;
-border-radius: 10px;
+    width: 340px;
+    height: 170px;
+    background-color: #F2F2F2;
+    display:flex;
+    border-radius: 10px;
+    margin: 20px;
 }
 
 .number-room-card{
@@ -34,9 +35,14 @@ background-color: #C4C4C4;
     height: 100%;
     /* background-color: blue; */
 }
+.information-side>p{
+    margin-top: 10px;
+}
 
 .number-room-title{
-    font-size: 1rem;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
     color: #1E9788;
 }
 
